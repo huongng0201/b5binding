@@ -66,13 +66,13 @@ export default class B5BindingData extends Component {
     }
 
     onPressButton = () => {
-        this.setState({ icon1: true })
+        this.setState({ icon1: true, icon2: false, icon3: false, icon4: false, icon5: false, icon6: false })
     }
     onPressButton2 = () => {
-        this.setState({ icon2: true, icon1: false, icon3: false })
+        this.setState({ icon2: true, icon1: false, icon3: false, icon4: false, icon5: false, icon6: false })
     }
     onPressButton3 = () => {
-        this.setState({ icon3: true, icon1: false, icon2: false })
+        this.setState({ icon3: true, icon2: false, icon1: false, icon4: false, icon5: false, icon6: false})
     }
 
     onPressButton4 = () => {
